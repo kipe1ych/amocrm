@@ -1,0 +1,189 @@
+/****************************************************************
+ * Begin Reset
+ ****************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+html {
+  line-height: 1;
+  height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  /* *display: inline;
+  *zoom: 1; */
+}
+audio:not([controls]) {
+  display: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q,
+blockquote {
+  quotes: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+input {
+  vertical-align: middle;
+}
+input[type=submit],
+input[type=button],
+button {
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent;
+  transition: background-color 5000s ease-in-out 0s;
+}
+strong {
+  font-weight: 700;
+}
+em {
+  font-style: italic;
+}
+img {
+  vertical-align: bottom;
+}
+/* End Reset
+ ****************************************************************/
+/****************************************************************
+ * Begin Base - First layer
+ ****************************************************************/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+  color: #3A3A3A;
+  font: 1vw/1vw 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+a {
+  color: #2A9F30;
+  text-decoration: none;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+a:hover {
+  color: #2A9F30;
+  text-decoration: underline;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+/* Wrapper */
+.wrapper {
+  width: 100%;
+  max-width: 1245px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.main-part {
+  flex: 1 0 auto;
+}
+/* Heading */
+.t-1,
+h1 {
+    font-size: 48px;
+    margin: 0 0 35px;
+}
+.t-2,
+h2 {
+    font-size: 40px;
+    margin: 0 0 35px;
+}
+.t-3,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 32px;
+    margin: 0 0 35px;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Button */
+/* Inputs */
+/* Form */
+/* Pagination */
+/* Breadcrumbs */
+/* End Base - First layer
+ ****************************************************************/
+/****************************************************************
+ * Begin Project - Second layer
+ ****************************************************************/
