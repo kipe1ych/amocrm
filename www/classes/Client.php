@@ -19,8 +19,7 @@ class Client {
             $client = new ApiClient();
             $result = $client->account->info();
 
-            if($result['result']) return true;
-            else throw new Exception('Ошибка');
+            return true;
         } catch(Exception $e) {
             return false;
         }
