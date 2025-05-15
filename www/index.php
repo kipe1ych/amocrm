@@ -19,6 +19,9 @@
         <li class="nav-item">
             <a class="nav-link" href="/third-task/">Task 3</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/fourth-task/">Task 4</a>
+        </li>
     </ul>
 </div>
 </body>
