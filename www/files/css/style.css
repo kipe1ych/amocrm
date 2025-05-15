@@ -115,7 +115,7 @@ a {
 }
 a:hover {
   color: #2A9F30;
-  text-decoration: underline;
+  text-decoration: none;
   -moz-transition: color 0.3s linear;
   -o-transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
@@ -187,3 +187,6 @@ h6 {
 /****************************************************************
  * Begin Project - Second layer
  ****************************************************************/
+.form-control_s {
+  width: 350px;
+}

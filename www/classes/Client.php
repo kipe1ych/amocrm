@@ -26,7 +26,7 @@ class Client {
     }
 
     // получаем сделки
-    public function getDeals(array $status, int $count = 10): array {
+    public function getDeals(array $status, int $count = 10, int $ifmodif = null): array {
         try {
             $config = Configuration::getDefaultConfiguration()->setHost($this->apiHost)->setApiKey('key', $this->apiKey);
 
@@ -35,7 +35,7 @@ class Client {
 
             do {
                 $client = new ApiClient();
-                $result = $client->lead->getAll([], $status, [], '', $count, $offset);
+                $result = $client->lead->getAll([], $status, [], $ifmodif, $count, $offset);
 
                 if(!empty($result['result']) && is_array($result['result'])) $deals = array_merge($deals, $result['result']);
                 $offset += $count;
@@ -46,10 +46,7 @@ class Client {
 
             return ['result' => $deals];
         } catch(Exception $e) {
-            return [
-                'success' => false,
-                'errorText' => $e->getMessage(),
-            ];
+            return ['result' => []];
         }
     }
 }
