@@ -8,7 +8,7 @@ $formsData = [
     ],
     'form2' => [
         'intr_group' => 'olgamooha2212@mail.com;testpers3@mail.ru;ske3@gmail.com',
-        'status' => 57202302,
+        'status' => 57230594,
     ],
 ];
 
@@ -23,6 +23,7 @@ if(isset($_COOKIE['introvert_cookie'])) {
 $postArr = array_merge($cookieData, $_POST); // $_POST данные отправленной формы
 $postArr['intr_group'] = $formsData[$_POST['id']]['intr_group'];
 $postArr['status'] = $formsData[$_POST['id']]['status']; 
+$postArr['new_entities'] = 'contact;lead';
 // объединяем данные и отправляем
 
 if (function_exists('curl_init')) {

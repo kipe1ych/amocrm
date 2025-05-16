@@ -12,7 +12,7 @@
             <input type="hidden" name="id" value="form1">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Имя</label>
-                <input type="text" class="form-control" name="contact_name" id="exampleFormControlInput1" placeholder="Ivan Ivanov">
+                <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Ivan Ivanov">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">Адрес электронной почты</label>
@@ -20,7 +20,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput3" class="form-label">Телефон</label>
-                <input type="text" class="form-control" name="phone" id="exampleFormControlInput3" placeholder="+7 (999) 999-99-99">
+                <input type="text" class="form-control" name="phone" id="exampleFormControlInput3" placeholder="+79999999999">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Комментарий</label>
@@ -32,7 +32,7 @@
             <input type="hidden" name="id" value="form2">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Имя</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" name="contact_name" placeholder="Ivan Ivanov">
+                <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Ivan Ivanov">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">Адрес электронной почты</label>
@@ -40,7 +40,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput3" class="form-label">Телефон</label>
-                <input type="text" class="form-control" name="phone" id="exampleFormControlInput3" placeholder="+7 (999) 999-99-99">
+                <input type="text" class="form-control" name="phone" id="exampleFormControlInput3" placeholder="+79999999999">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Комментарий</label>
